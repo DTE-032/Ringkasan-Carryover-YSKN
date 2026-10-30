@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eb0a59">
+  <meta name="description" content="Dasbor refleksi kerja mingguan dan ringkasan tindak lanjut Yayasan Sahabat Kemanusiaan Nusantara.">
+  <title>Dasbor Operasional | YSKN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navigasi utama">
+      <a class="brand" href="#ringkasan" aria-label="YSKN, ke ringkasan">
+        <span class="brand-mark"><i class="bi bi-heart-pulse-fill" aria-hidden="true"></i></span>
+        <span class="brand-copy"><strong>YSKN</strong><small>Sahabat Kemanusiaan Nusantara</small></span>
+      </a>
+      <div class="sidebar-label">RUANG KERJA</div>
+      <nav class="side-nav">
+        <a class="nav-link active" href="#ringkasan" data-section="ringkasan"><i class="bi bi-grid-1x2-fill" aria-hidden="true"></i><span>Ikhtisar</span></a>
+        <a class="nav-link" href="#program" data-section="program"><i class="bi bi-diagram-3-fill" aria-hidden="true"></i><span>Distribusi Program</span></a>
+        <a class="nav-link" href="#pencapaian" data-section="pencapaian"><i class="bi bi-check2-circle" aria-hidden="true"></i><span>Pencapaian</span></a>
+        <a class="nav-link" href="#carryover" data-section="carryover"><i class="bi bi-hourglass-split" aria-hidden="true"></i><span>Tindak Lanjut</span><span class="nav-count">4</span></a>
+        <a class="nav-link" href="#prioritas" data-section="prioritas"><i class="bi bi-flag-fill" aria-hidden="true"></i><span>Prioritas Berikutnya</span></a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-note"><span class="note-icon"><i class="bi bi-shield-check"></i></span><div><strong>Ruang koordinasi</strong><p>Ringkas, terukur, dan berorientasi pada dampak.</p></div></div>
+        <span class="sidebar-version">DASBOR INTERNAL · 2026</span>
+      </div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Buka navigasi" aria-controls="sidebar" aria-expanded="false"><i class="bi bi-list" aria-hidden="true"></i></button>
+        <div class="breadcrumb"><span>YSKN</span><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>Dasbor Operasional</strong></div>
+        <div class="topbar-actions">
+          <span class="status-pill"><span class="status-dot"></span> Laporan mingguan</span>
+          <button class="button button-outline" id="exportBtn" type="button"><i class="bi bi-download" aria-hidden="true"></i><span>Ekspor data</span></button>
+          <button class="button button-primary" id="printBtn" type="button"><i class="bi bi-printer" aria-hidden="true"></i><span>Cetak laporan</span></button>
+        </div>
+      </header>
+
+      <main class="content" id="mainContent">
+        <section class="page-intro" id="ringkasan">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> REFLEKSI KERJA MINGGUAN</p>
+            <h1>Ringkasan <span>operasional.</span></h1>
+            <p class="intro-copy">Pantau perkembangan program, pekerjaan yang perlu dituntaskan, dan fokus tim untuk periode berikutnya.</p>
+          </div>
+          <div class="date-card"><span class="date-icon"><i class="bi bi-calendar3" aria-hidden="true"></i></span><div><small>PERIODE LAPORAN</small><strong>Ringkasan 2026</strong><span>Perbarui tanggal sesuai periode aktual</span></div></div>
+        </section>
+
+        <section class="summary-banner" aria-labelledby="summaryTitle">
+          <div class="banner-icon"><i class="bi bi-lightning-charge-fill" aria-hidden="true"></i></div>
+          <div class="banner-copy"><h2 id="summaryTitle">Sorotan operasional</h2><p>Minggu ini berfokus pada tanggap darurat bencana dan pendampingan pasien anak di rumah singgah RSCM. Mobilisasi tim lapangan memengaruhi sebagian pekerjaan administratif, sementara program kesehatan dan lingkungan tetap berjalan.</p></div>
+          <span class="banner-tag">CATATAN MINGGUAN</span>
+        </section>
+
+        <section class="kpi-grid" aria-label="Indikator utama">
+          <article class="kpi-card"><div class="kpi-top"><span>Cakupan program</span><span class="kpi-icon pink"><i class="bi bi-diagram-3"></i></span></div><div class="kpi-value">4 <small>sektor</small></div><p>Kanal layanan utama</p><div class="kpi-foot"><span class="mini-dot pink-dot"></span>Kesehatan, bencana, lingkungan, pemberdayaan</div></article>
+          <article class="kpi-card"><div class="kpi-top"><span>Tugas selesai</span><span class="kpi-icon green"><i class="bi bi-check2-circle"></i></span></div><div class="kpi-value">7 <small>poin</small></div><p>Diselesaikan minggu ini</p><div class="progress-track"><span style="width:64%"></span></div><div class="kpi-foot">7 dari 11 poin yang tercatat</div></article>
+          <article class="kpi-card"><div class="kpi-top"><span>Tindak lanjut</span><span class="kpi-icon amber"><i class="bi bi-hourglass-split"></i></span></div><div class="kpi-value">4 <small>poin</small></div><p>Masih membutuhkan tindakan</p><div class="progress-track amber-track"><span style="width:36%"></span></div><div class="kpi-foot">Perlu pemilik tugas dan tenggat</div></article>
+          <article class="kpi-card"><div class="kpi-top"><span>Prioritas berikutnya</span><span class="kpi-icon blue"><i class="bi bi-flag"></i></span></div><div class="kpi-value">3 <small>target</small></div><p>Fokus utama tim</p><div class="kpi-foot"><span class="mini-dot blue-dot"></span>Pengadaan dan administrasi</div></article>
+        </section>
+
+        <section class="section-block" id="program">
+          <div class="section-heading"><div><p class="eyebrow">GAMBARAN UMUM</p><h2>Distribusi fokus program</h2><p>Proporsi ilustratif beban kerja berdasarkan ringkasan yang tersedia.</p></div><span class="section-index">01 / PROGRAM</span></div>
+          <div class="program-layout">
+            <article class="panel chart-panel">
+              <div class="panel-heading"><div><h3>Alokasi aktivitas</h3><p>Komposisi indikatif, bukan data pengukuran resmi.</p></div><span class="panel-icon"><i class="bi bi-pie-chart-fill"></i></span></div>
+              <div class="chart-wrap"><div class="donut-chart" role="img" aria-label="Diagram ilustratif: kesehatan 35 persen, tanggap bencana 30 persen, lingkungan 20 persen, pemberdayaan 15 persen."><div class="donut-center"><strong>4</strong><span>sektor</span></div></div></div>
+              <div class="chart-legend">
+                <div><span class="legend-dot legend-pink"></span><span>Kesehatan & rumah singgah</span><strong>35%</strong></div>
+                <div><span class="legend-dot legend-green"></span><span>Tanggap bencana</span><strong>30%</strong></div>
+                <div><span class="legend-dot legend-amber"></span><span>Konservasi lingkungan</span><strong>20%</strong></div>
+                <div><span class="legend-dot legend-purple"></span><span>Pemberdayaan masyarakat</span><strong>15%</strong></div>
+              </div>
+            </article>
+            <article class="panel sector-panel">
+              <div class="panel-heading"><div><h3>Fokus layanan</h3><p>Ringkasan kegiatan per sektor.</p></div></div>
+              <div class="sector-item"><span class="sector-symbol pink"><i class="bi bi-heart-pulse-fill"></i></span><div><h4>Kesehatan & rumah singgah</h4><p>Layanan ambulans gratis dan hunian sementara bagi pasien anak di sekitar RSCM.</p></div><span class="sector-state state-active">Aktif</span></div>
+              <div class="sector-item"><span class="sector-symbol green"><i class="bi bi-life-preserver"></i></span><div><h4>Tanggap bencana</h4><p>Distribusi logistik darurat di NTT dan edukasi mitigasi di kawasan Sesar Lembang.</p></div><span class="sector-state state-done">Berjalan</span></div>
+              <div class="sector-item"><span class="sector-symbol amber"><i class="bi bi-tree-fill"></i></span><div><h4>Konservasi lingkungan</h4><p>Pemeriksaan lahan tanam dan persiapan perpipaan air bersih di wilayah rawan kekeringan.</p></div><span class="sector-state state-progress">Proses</span></div>
+              <div class="sector-item"><span class="sector-symbol purple"><i class="bi bi-people-fill"></i></span><div><h4>Pemberdayaan masyarakat</h4><p>Penyaluran bantuan rutin dan pembaruan kampanye digital.</p></div><span class="sector-state state-done">Berjalan</span></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block" id="matriks">
+          <div class="section-heading"><div><p class="eyebrow">PEMANTAUAN</p><h2>Matriks status program</h2><p>Ringkasan fokus, status, dan tantangan utama.</p></div><span class="section-index">02 / STATUS</span></div>
+          <div class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Kanal program</th><th>Fokus utama</th><th>Status mingguan</th><th>Tantangan utama</th></tr></thead><tbody>
+            <tr><td><strong>Kesehatan & rumah singgah</strong></td><td>Ambulans gratis dan rumah singgah pasien anak RSCM</td><td><span class="table-status status-green">Aktif berjalan</span></td><td>Biaya operasional armada dan kapasitas tempat tidur</td></tr>
+            <tr><td><strong>Tanggap bencana</strong></td><td>Bantuan darurat dan pelatihan mitigasi</td><td><span class="table-status status-blue">Target berjalan</span></td><td>Pengiriman logistik ke wilayah terpencil</td></tr>
+            <tr><td><strong>Konservasi lingkungan</strong></td><td>Penanaman pohon, bank sampah, dan perpipaan air</td><td><span class="table-status status-amber">Dalam proses</span></td><td>Cuaca dan koordinasi vendor lapangan</td></tr>
+            <tr><td><strong>Pemberdayaan masyarakat</strong></td><td>Bantuan sembako dan dukungan kelompok rentan</td><td><span class="table-status status-green">Target berjalan</span></td><td>Fluktuasi donasi digital</td></tr>
+          </tbody></table></div></div>
+        </section>
+
+        <section class="section-block" id="pencapaian">
+          <div class="section-heading"><div><p class="eyebrow">HASIL KERJA</p><h2>Pencapaian minggu ini</h2><p>Daftar kegiatan yang tercatat selesai.</p></div><span class="section-index">03 / SELESAI</span></div>
+          <div class="list-toolbar"><label class="search-box"><i class="bi bi-search" aria-hidden="true"></i><input id="accomplishmentSearch" type="search" placeholder="Cari pencapaian..." aria-label="Cari pencapaian"></label><span class="result-count" id="accomplishmentCount">7 kegiatan</span></div>
+          <div class="task-grid" id="accomplishmentList">
+            <article class="task-card" data-search="bantuan bencana sikka ntt sembako logistik"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Bantuan bencana Sikka, NTT</h3><p>Penyaluran paket sembako dan perlengkapan darurat bagi keluarga terdampak bencana.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+            <article class="task-card" data-search="operasional rumah singgah jakarta pasien anak rscm nutrisi"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Operasional rumah singgah Jakarta</h3><p>Hunian sementara dan dukungan nutrisi harian bagi pasien anak di sekitar RSCM.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+            <article class="task-card" data-search="transportasi ambulans gratis pasien medis"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Transportasi ambulans gratis</h3><p>Pengantaran pasien kurang mampu yang membutuhkan penanganan medis antar fasilitas kesehatan.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+            <article class="task-card" data-search="pelatihan mitigasi sesar lembang gempa"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Pelatihan mitigasi Sesar Lembang</h3><p>Lokakarya keselamatan gempa dan mitigasi bencana bagi warga sekitar.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+            <article class="task-card" data-search="monitoring konservasi lingkungan pohon bank sampah"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Monitoring konservasi lingkungan</h3><p>Pemeriksaan area penanaman pohon lokal dan pendampingan bank sampah komunitas.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+            <article class="task-card" data-search="penyaluran sembako lansia pekerja informal keluarga"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Penyaluran sembako mingguan</h3><p>Pembagian paket pangan untuk lansia, pekerja informal, dan keluarga prasejahtera.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+            <article class="task-card" data-search="pembaruan kampanye digital donatur transparansi"><span class="task-check"><i class="bi bi-check-lg"></i></span><div><h3>Pembaruan kampanye digital</h3><p>Pembaruan data dan pencapaian platform penggalangan dana untuk transparansi donatur.</p><span class="task-meta"><i class="bi bi-check-circle"></i> Selesai</span></div></article>
+          </div>
+          <p class="empty-state" id="accomplishmentEmpty" hidden>Tidak ada pencapaian yang sesuai dengan kata kunci.</p>
+        </section>
+
+        <section class="section-block" id="carryover">
+          <div class="section-heading"><div><p class="eyebrow">PERLU DITUNTASKAN</p><h2>Pekerjaan tindak lanjut</h2><p>Gunakan daftar ini untuk koordinasi dan penetapan penanggung jawab.</p></div><span class="section-index">04 / TINDAK LANJUT</span></div>
+          <div class="list-toolbar"><label class="search-box"><i class="bi bi-search" aria-hidden="true"></i><input id="carryoverSearch" type="search" placeholder="Cari pekerjaan..." aria-label="Cari pekerjaan tindak lanjut"></label><span class="result-count" id="carryoverCount">4 pekerjaan</span></div>
+          <div class="carryover-list" id="carryoverList">
+            <article class="carryover-card" data-search="pengadaan material perpipaan air bersih bener meriah 14 desa"><span class="priority-rail rail-high"></span><div class="carryover-main"><div class="carryover-title"><h3>Pengadaan material perpipaan air bersih</h3><span class="priority-badge priority-high">Prioritas tinggi</span></div><p>Finalisasi kontrak vendor untuk proyek perpipaan air di 14 desa di Bener Meriah.</p><div class="carryover-meta"><span><i class="bi bi-geo-alt"></i> Bener Meriah</span><span><i class="bi bi-person-plus"></i> Penanggung jawab belum ditetapkan</span></div></div><span class="carryover-number">01</span></article>
+            <article class="carryover-card" data-search="servis rutin armada ambulans pemeliharaan kendaraan"><span class="priority-rail rail-high"></span><div class="carryover-main"><div class="carryover-title"><h3>Servis rutin armada ambulans</h3><span class="priority-badge priority-high">Penting</span></div><p>Pemeriksaan mekanis dan pemeliharaan armada untuk memastikan keselamatan perjalanan.</p><div class="carryover-meta"><span><i class="bi bi-truck-front"></i> Armada operasional</span><span><i class="bi bi-person-plus"></i> Penanggung jawab belum ditetapkan</span></div></div><span class="carryover-number">02</span></article>
+            <article class="carryover-card" data-search="pelaporan keuangan kuartalan mitra korporasi administrasi"><span class="priority-rail rail-medium"></span><div class="carryover-main"><div class="carryover-title"><h3>Pelaporan keuangan kuartalan</h3><span class="priority-badge priority-medium">Administratif</span></div><p>Penyusunan laporan untuk mitra korporasi yang tertunda karena pengalihan personel ke tugas darurat.</p><div class="carryover-meta"><span><i class="bi bi-file-earmark-text"></i> Administrasi dan keuangan</span><span><i class="bi bi-person-plus"></i> Penanggung jawab belum ditetapkan</span></div></div><span class="carryover-number">03</span></article>
+            <article class="carryover-card" data-search="pendaftaran peserta edukasi lingkungan guru siswa sekolah"><span class="priority-rail rail-medium"></span><div class="carryover-main"><div class="carryover-title"><h3>Pendaftaran peserta edukasi lingkungan</h3><span class="priority-badge priority-medium">Pengembangan</span></div><p>Pendataan guru dan siswa untuk kelas kesadaran lingkungan pada siklus berikutnya.</p><div class="carryover-meta"><span><i class="bi bi-mortarboard"></i> Edukasi lingkungan</span><span><i class="bi bi-person-plus"></i> Penanggung jawab belum ditetapkan</span></div></div><span class="carryover-number">04</span></article>
+          </div>
+          <p class="empty-state" id="carryoverEmpty" hidden>Tidak ada pekerjaan yang sesuai dengan kata kunci.</p>
+        </section>
+
+        <section class="section-block" id="prioritas">
+          <div class="section-heading"><div><p class="eyebrow">LANGKAH BERIKUTNYA</p><h2>Prioritas periode berikutnya</h2><p>Tiga target yang disarankan berdasarkan pekerjaan tertunda dalam ringkasan.</p></div><span class="section-index">05 / PRIORITAS</span></div>
+          <div class="priority-grid">
+            <article class="priority-card featured"><span class="priority-number">01</span><span class="priority-card-icon"><i class="bi bi-droplet-half"></i></span><p class="priority-label">PRIORITAS UTAMA</p><h3>Kontrak dan pengiriman material air bersih</h3><p>Finalisasi kesepakatan vendor dan koordinasikan pengiriman material perpipaan ke lokasi sasaran.</p><div class="priority-footer"><span><i class="bi bi-flag-fill"></i> Tinggi</span><span>Pengadaan</span></div></article>
+            <article class="priority-card"><span class="priority-number">02</span><span class="priority-card-icon"><i class="bi bi-truck"></i></span><p class="priority-label">KESELAMATAN OPERASI</p><h3>Pemeliharaan dan inspeksi ambulans</h3><p>Jadwalkan servis rutin dan pemeriksaan kelayakan kendaraan untuk layanan pasien.</p><div class="priority-footer"><span><i class="bi bi-calendar-check"></i> Perlu jadwal</span><span>Operasional</span></div></article>
+            <article class="priority-card"><span class="priority-number">03</span><span class="priority-card-icon"><i class="bi bi-file-earmark-check"></i></span><p class="priority-label">AKUNTABILITAS</p><h3>Finalisasi laporan pertanggungjawaban hibah</h3><p>Lengkapi laporan akuntabilitas donasi korporasi untuk mendukung proses pendanaan berikutnya.</p><div class="priority-footer"><span><i class="bi bi-file-text"></i> Administratif</span><span>Keuangan</span></div></article>
+          </div>
+          <div class="closing-note"><span class="closing-icon"><i class="bi bi-chat-square-heart-fill"></i></span><div><h3>Catatan ritme kerja</h3><p>Tim menunjukkan fleksibilitas dalam menangani kebutuhan darurat. Untuk menjaga keseimbangan antara respons lapangan dan administrasi, tetapkan penanggung jawab serta tenggat yang jelas pada setiap pekerjaan tindak lanjut.</p></div></div>
+        </section>
+
+        <footer class="page-footer"><div><span class="footer-mark"><i class="bi bi-heart-pulse-fill"></i></span><span><strong>YSKN</strong><small>Yayasan Sahabat Kemanusiaan Nusantara</small></span></div><p>Dasbor operasional internal · 2026</p><a href="#ringkasan">Kembali ke atas <i class="bi bi-arrow-up"></i></a></footer>
+      </main>
+    </div>
+  </div>
+  <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+  <nav class="mobile-nav" aria-label="Navigasi cepat">
+    <a class="mobile-nav-link active" href="#ringkasan" data-section="ringkasan"><i class="bi bi-grid-1x2-fill"></i><span>Ikhtisar</span></a>
+    <a class="mobile-nav-link" href="#pencapaian" data-section="pencapaian"><i class="bi bi-check2-circle"></i><span>Pencapaian</span></a>
+    <a class="mobile-nav-link" href="#carryover" data-section="carryover"><i class="bi bi-hourglass-split"></i><span>Tindak lanjut</span></a>
+    <a class="mobile-nav-link" href="#prioritas" data-section="prioritas"><i class="bi bi-flag"></i><span>Prioritas</span></a>
+  </nav>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
